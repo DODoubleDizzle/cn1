@@ -4,18 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1696ec834522137c",
+        "id": "aacc67ae9d711f26",
         "type": "tabs",
         "children": [
           {
-            "id": "a04dc5de32b84221",
+            "id": "80f378ed45051d93",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
                 "file": "Network Layer/Network Layer 1.md",
-                "mode": "source",
-                "source": false
+                "staged": false
               }
             }
           }
@@ -86,7 +85,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network Layer/Network Layer 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network Layer/Network Layer 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +130,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Network Layer/Network Layer 1.md"
-              }
+              "state": {}
             }
           },
           {
@@ -202,16 +197,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a04dc5de32b84221",
+  "active": "80f378ed45051d93",
   "lastOpenFiles": [
-    "Pasted image 20240105135943.png",
     "Network Layer/Network Layer 1.md",
-    "Pasted image 20240105115555.png",
-    "Pasted image 20240105114119.png",
-    "Pasted image 20240105114056.png",
-    "Pasted image 20240105113107.png",
-    "Pasted image 20240105112922.png",
+    "images/Pasted image 20240105161305.png",
+    "images/Pasted image 20240105155438.png",
     "18.12.2023.md",
+    "Physical/Wireless.md",
+    "images/Pasted image 20240105113107.png",
+    "images/Pasted image 20240105135943.png",
+    "images/Pasted image 20240105115555.png",
+    "images/Pasted image 20240105114119.png",
+    "images/Pasted image 20240105114056.png",
+    "Pasted image 20240105112922.png",
     "README.md",
     "images/Pasted image 20240105104635.png",
     "images/Pasted image 20240105104455.png",
@@ -225,14 +223,10 @@
     "CN",
     "Physical/Copper Cables.md",
     "Network Layer/Network Layer.md",
-    "images/Pasted image 20240104115159.png",
-    "images/Pasted image 20240104115150.png",
-    "images/Pasted image 20240103152031.png",
     "images",
     "Physical/Encoding.md",
     "Osi model.md",
     "DNS.md",
-    "Physical/Wireless.md",
     "Physical/Physical Layer.md",
     "Physical/Fiber Optic.md",
     "Physical",
