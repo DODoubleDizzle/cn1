@@ -145,9 +145,17 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "8b620d1c81dca4fa",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       },
       {
         "id": "bb578a267710b521",
@@ -185,6 +193,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "graph:Open graph view": false,
       "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
@@ -195,9 +204,15 @@
   },
   "active": "a04dc5de32b84221",
   "lastOpenFiles": [
-    "images/Pasted image 20240105104635.png",
+    "Pasted image 20240105115555.png",
     "Network Layer/Network Layer 1.md",
+    "Pasted image 20240105114119.png",
+    "Pasted image 20240105114056.png",
+    "Pasted image 20240105113107.png",
+    "Pasted image 20240105112922.png",
     "18.12.2023.md",
+    "README.md",
+    "images/Pasted image 20240105104635.png",
     "images/Pasted image 20240105104455.png",
     "CN/DataLink/Wireless.md",
     "DataLink/Data Link Layer.md",
@@ -213,10 +228,6 @@
     "images/Pasted image 20240104115150.png",
     "images/Pasted image 20240103152031.png",
     "images/Pasted image 20240103140204.png",
-    "images/Pasted image 20240103140147.png",
-    "images/Pasted image 20240103135942.png",
-    "images/Pasted image 20240103135919.png",
-    "images/Pasted image 20240103135843.png",
     "images",
     "Physical/Encoding.md",
     "Osi model.md",
