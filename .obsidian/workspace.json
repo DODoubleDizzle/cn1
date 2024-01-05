@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "3d51e823828989bc",
+        "id": "1696ec834522137c",
         "type": "tabs",
         "children": [
           {
-            "id": "ad119f4f1969fa70",
+            "id": "a04dc5de32b84221",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Network Layer/Network Layer 1.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -74,6 +78,7 @@
       {
         "id": "9bd13606314a45db",
         "type": "tabs",
+        "dimension": 23.14814814814815,
         "children": [
           {
             "id": "f5f801adecd95668",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Network Layer/Network Layer 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,9 +103,18 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Network Layer/Network Layer 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
+            }
+          },
+          {
+            "id": "920aee1ccb6e8c4c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -118,15 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
-            }
-          },
-          {
-            "id": "920aee1ccb6e8c4c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
+              "state": {
+                "file": "Network Layer/Network Layer 1.md"
+              }
             }
           },
           {
@@ -138,11 +147,41 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
+      },
+      {
+        "id": "bb578a267710b521",
+        "type": "tabs",
+        "dimension": 36.574074074074076,
+        "children": [
+          {
+            "id": "c81f4b6566b10d4e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "ce5341e63bab3424",
+        "type": "tabs",
+        "dimension": 40.27777777777778,
+        "children": [
+          {
+            "id": "74fca2bb7cf43a97",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 269.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -154,8 +193,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ad119f4f1969fa70",
+  "active": "a04dc5de32b84221",
   "lastOpenFiles": [
+    "images/Pasted image 20240105104635.png",
+    "Network Layer/Network Layer 1.md",
+    "18.12.2023.md",
+    "images/Pasted image 20240105104455.png",
     "CN/DataLink/Wireless.md",
     "DataLink/Data Link Layer.md",
     "DataLink/Hidden Node Problem.md",
@@ -174,14 +217,10 @@
     "images/Pasted image 20240103135942.png",
     "images/Pasted image 20240103135919.png",
     "images/Pasted image 20240103135843.png",
-    "images/Pasted image 20240103135719.png",
-    "images/Pasted image 20240103135551.png",
     "images",
     "Physical/Encoding.md",
-    "Network Layer/Network Layer 1.md",
     "Osi model.md",
     "DNS.md",
-    "18.12.2023.md",
     "Physical/Wireless.md",
     "Physical/Physical Layer.md",
     "Physical/Fiber Optic.md",
