@@ -11,10 +11,11 @@
             "id": "80f378ed45051d93",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
                 "file": "Network Layer/Network Layer 1.md",
-                "staged": false
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -85,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Network Layer/Network Layer 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Network Layer/Network Layer 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Network Layer/Network Layer 1.md"
+              }
             }
           },
           {
