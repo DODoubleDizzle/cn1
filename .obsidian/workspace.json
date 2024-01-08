@@ -11,9 +11,11 @@
             "id": "80f378ed45051d93",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "images/Pasted image 20240108152032.png"
+                "file": "Transport Layer/Transport Layer.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "images/Pasted image 20240108152032.png",
+                "file": "Transport Layer/Transport Layer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "images/Pasted image 20240108152032.png",
+                "file": "Transport Layer/Transport Layer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "images/Pasted image 20240108152032.png"
+                "file": "Transport Layer/Transport Layer.md"
               }
             }
           },
@@ -200,17 +202,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fbc4c407b6ede363",
+  "active": "80f378ed45051d93",
   "lastOpenFiles": [
+    "Pasted image 20240108154852.png",
+    "Pasted image 20240108154803.png",
+    "18.12.2023.md",
     "Transport Layer/Transport Layer.md",
+    "Network Layer/Network Layer.md",
+    "images/Pasted image 20240108152032.png",
     "Pasted image 20240108151245.png",
     "images/Pasted image 20240108143504.png",
     "Pasted image 20240108151550.png",
-    "images/Pasted image 20240108152032.png",
-    "Network Layer/Network Layer.md",
     "DataLink/Data Link Layer.md",
     "Physical/Physical Layer.md",
-    "18.12.2023.md",
     "Transport Layer",
     "images/Pasted image 20240108112239.png",
     "DataLink/Wired.md",
@@ -221,7 +225,6 @@
     "Physical/Wireless.md",
     "images/Pasted image 20240105113107.png",
     "images/Pasted image 20240105135943.png",
-    "images/Pasted image 20240105115555.png",
     "README.md",
     "CN/DataLink/Wireless.md",
     "DataLink/Hidden Node Problem.md",
