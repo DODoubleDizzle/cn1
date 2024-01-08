@@ -256,7 +256,23 @@ M flag stands for Managed Address Configuration and it says to host receiving t
 ## Other flag
 Other flag stands for Other configuration and it tells host receiving the RA message that he should use DHCP to get other configuration parts like DNS server IPv6 address. SLAAC in today’s implementation is not able to send the info to the host about DNS server IPv6 address. That will probably force you to use both SLAAC and DHCPv6 to on those subsets where you want to use automatic host configuration method.
 
-# solicited node
-# routing longest match
+# Solicited Node
+A "Solicited Node" in IPv6 networking refers to a special type of multicast address that is used for efficient network traffic management, particularly for the Neighbour Discovery Protocol (NDP). 
+
+**Calculation**: A Solicited Node multicast address is automatically generated for each IPv6 address assigned to a network interface. It is formed by combining the prefix `FF02::1:FF` with the last 24 bits (6 digits) of the corresponding IPv6 address. For instance, if a device has the IPv6 address `2001:db8::567:89ab`, the Solicited Node multicast address would be `FF02::1:FF67:89AB`.
+**How It Works**: When an IPv6-enabled device needs to learn the MAC address of another device on the same network (for sending packets to it, for example), it sends a Neighbour Solicitation message to the Solicited Node multicast address corresponding to the target device's IPv6 address. This message asks the owner of that IPv6 address to respond with its link-layer address.
+**Efficiency**: In IPv4, a similar process (ARP) broadcasts a request to all nodes on the local network, which can lead to inefficiencies, especially in large networks. IPv6 improves upon this by using Solicited Node addresses, which are a type of multicast address listened to only by specific nodes. This results in significantly less local network traffic.
+**Scope**: Solicited Node multicast addresses have a link-local scope, meaning they are only relevant and used within the local network segment.
+# Routing longest match
+Routing longest match is used in the routing forwarding table of a router to determine where to forward the packet to. 
+192.16.0.0/14 -> 1100 0000 0001 0000
+192.20.0.0/14 -> 1100 0000 0001 0100
+![[Pasted image 20240108143504.png]]
+Subnet mask is the green line, so 255.248.0.0
+The address will result by taking all the 1s on the left side of the subnet mask line.
+
 # clear ip nat translation
+`clear ip nat translation` is a command used in Cisco devices to clear all dynamic entries from the NAT table.
+
 # link state routing
+## IS-IS
