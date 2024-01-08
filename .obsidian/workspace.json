@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network Layer/Network Layer 1.md",
+                "file": "Network Layer/Network Layer.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "neighbour discovery",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network Layer/Network Layer 1.md",
+                "file": "Network Layer/Network Layer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network Layer/Network Layer 1.md",
+                "file": "Network Layer/Network Layer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network Layer/Network Layer 1.md"
+                "file": "Network Layer/Network Layer.md"
               }
             }
           },
@@ -204,10 +204,12 @@
   },
   "active": "80f378ed45051d93",
   "lastOpenFiles": [
-    "DataLink/Domains.md",
+    "Pasted image 20240108112239.png",
     "DataLink/Data Link Layer.md",
+    "DataLink/Wired.md",
     "DataLink/Wireless.md",
-    "Network Layer/Network Layer 1.md",
+    "Network Layer/Network Layer.md",
+    "DataLink/Domains.md",
     "images/Pasted image 20240105161305.png",
     "images/Pasted image 20240105155438.png",
     "18.12.2023.md",
@@ -223,7 +225,6 @@
     "images/Pasted image 20240105104455.png",
     "CN/DataLink/Wireless.md",
     "DataLink/Hidden Node Problem.md",
-    "DataLink/Wired.md",
     "CN/DataLink",
     "CN",
     "Physical/Copper Cables.md",
