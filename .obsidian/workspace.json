@@ -11,11 +11,9 @@
             "id": "80f378ed45051d93",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Transport Layer/Transport Layer.md",
-                "mode": "source",
-                "source": false
+                "file": "images/Pasted image 20240108152032.png"
               }
             }
           }
@@ -86,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Transport Layer/Transport Layer.md",
+                "file": "images/Pasted image 20240108152032.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Transport Layer/Transport Layer.md",
+                "file": "images/Pasted image 20240108152032.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Transport Layer/Transport Layer.md"
+                "file": "images/Pasted image 20240108152032.png"
               }
             }
           },
@@ -204,9 +202,12 @@
   },
   "active": "fbc4c407b6ede363",
   "lastOpenFiles": [
-    "Network Layer/Network Layer.md",
     "Transport Layer/Transport Layer.md",
-    "Pasted image 20240108143504.png",
+    "Pasted image 20240108151245.png",
+    "images/Pasted image 20240108143504.png",
+    "Pasted image 20240108151550.png",
+    "images/Pasted image 20240108152032.png",
+    "Network Layer/Network Layer.md",
     "DataLink/Data Link Layer.md",
     "Physical/Physical Layer.md",
     "18.12.2023.md",
@@ -221,9 +222,6 @@
     "images/Pasted image 20240105113107.png",
     "images/Pasted image 20240105135943.png",
     "images/Pasted image 20240105115555.png",
-    "images/Pasted image 20240105114119.png",
-    "images/Pasted image 20240105114056.png",
-    "Pasted image 20240105112922.png",
     "README.md",
     "CN/DataLink/Wireless.md",
     "DataLink/Hidden Node Problem.md",
