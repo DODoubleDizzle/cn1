@@ -18,4 +18,3 @@ Copper cables are widely used for networking and telecommunications due to their
     - **RG-59**: Commonly used for closed-circuit television (CCTV) applications.
 - **Benefits**: Better shielding compared to twisted pair cables, making them less susceptible to EMI and suitable for longer distances.
 - **Applications**: Broadband internet, cable television, Ethernet backbones.
-    

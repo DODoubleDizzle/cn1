@@ -17,6 +17,7 @@
 | **Header Size** | 8 bytes | 20 bytes minimum |
 | **Uses** | Suited for applications where speed and latency is more critical than reliability, such as streaming media (video, audio), online gaming, and DNS queries. | Used for applications where reliability and order are critical, such as web browsing (HTTP/HTTPS), email (SMTP, POP3, IMAP), and file transfers (FTP). |
 
+
 # TCP
 ## 3 way handshake
 ### SYN
@@ -43,7 +44,7 @@ Congestion avoidance works by adjusting the size of the congestion window (the a
 ## duplicate ack
 A duplicate ACK is sent by the receiver when it receives a packet out of order, indicating that it expects a different sequence number. This can happen if a packet is lost or arrives late. Receiving multiple duplicate ACKs is often a sign of packet loss and is used by the sender to trigger fast retransmission
 ## fast retransmit
-Instead of waiting for a retransmission timer to expire, the sender retransmits the packet after receiving a certain number of duplicate ACKs for the same data (commonly three).
+Instead of waiting for a retransmission timer to expire, the sender retransmits the packet after receiving a certain number of duplicate [[ACKs]] for the same data (commonly three).
 ## fast recovery
 Fast recovery is a mechanism to recover from packet loss without closing the congestion window completely. After [[#fast retransmit]] sends the missing packet, fast recovery algorithm reduces the congestion window (but not as much as in a congestion event) and then begins to increase the window size again, but more cautiously.
 ## sliding window
@@ -53,7 +54,7 @@ The green part is also known as usable window.
 ## MSS
 MSS refers to the largest segment of data that the TCP layer can pass down to the IP layer. It does not include the TCP header or the IP header. The MSS is typically negotiated during the connection establishment phase and is used to avoid fragmentation in the IP layer.
 ## push / urgent
-The Push function in TCP tells the sender to send all queued data immediately, and the receiver to pass this data to the application upon arrival, without waiting for the buffer to fill up.
+The Push function in [[#TCP]] tells the sender to send all queued data immediately, and the receiver to pass this data to the application upon arrival, without waiting for the buffer to fill up.
 
 The Urgent flag indicates that the segment contains urgent data that should be processed immediately. It's used to send data out-of-band within the same TCP connection.
 
@@ -81,6 +82,8 @@ The `helper-address` is a configuration command used on routers or switches to s
 ## iterative
 ## ttl
 ## RRs
+
 # Network management
 ## FACPS
 ## Old school protocols
+

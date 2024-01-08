@@ -41,7 +41,6 @@ Attenuation refers to the reduction in signal strength as it travels through a m
 	- **Infrared Absorption**:
 	    - Above **1600 nm**: As the wavelength enters the infrared region, absorption increases due to the fundamental vibrational modes of the silica molecules themselves.
 	    - This increase in absorption limits the use of wavelengths beyond 1600 nm for long-distance communication in standard silica fibers.
-	
 - **Rayleigh scattering** refers to the scattering of light by particles in its path
 - Bending
 	- Microbends (small distortions in manufacturing)

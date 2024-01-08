@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "aacc67ae9d711f26",
+        "id": "b78af1f9ec341c79",
         "type": "tabs",
         "children": [
           {
-            "id": "80f378ed45051d93",
+            "id": "ac890e1df0022c19",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Transport Layer/Transport Layer.md",
+                "file": "Physical/Fiber Optic.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Transport Layer/Transport Layer.md",
+                "file": "Physical/Fiber Optic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,18 +103,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Transport Layer/Transport Layer.md",
+                "file": "Physical/Fiber Optic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
-            }
-          },
-          {
-            "id": "920aee1ccb6e8c4c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           },
           {
@@ -134,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Transport Layer/Transport Layer.md"
+                "file": "Physical/Fiber Optic.md"
               }
             }
           },
@@ -155,7 +147,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       },
       {
         "id": "bb578a267710b521",
@@ -181,11 +173,24 @@
             "id": "74fca2bb7cf43a97",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Network Layer/Network Layer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "920aee1ccb6e8c4c",
+            "type": "leaf",
+            "state": {
               "type": "graph",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -199,43 +204,46 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "fbc4c407b6ede363",
+  "active": "ac890e1df0022c19",
   "lastOpenFiles": [
+    "Physical/Encoding.md",
+    "DataLink/Wired.md",
+    "Network Layer/Network Layer.md",
+    "Network Layer/Solicited Node.md",
+    "18.12.2023.md",
+    "Physical/Fiber Optic.md",
+    "Physical/Copper Cables.md",
+    "Physical/Wireless.md",
+    "TCP.md",
+    "DataLink/Data Link Layer.md",
+    "DataLink/Hidden Node Problem.md",
+    "DataLink/Domains.md",
+    "Physical/Physical Layer.md",
+    "DNS.md",
+    "ACKs.md",
+    "Transport Layer/Transport Layer.md",
     "images/Pasted image 20240108154852.png",
     "images/Pasted image 20240108154803.png",
-    "18.12.2023.md",
-    "Transport Layer/Transport Layer.md",
-    "Network Layer/Network Layer.md",
     "images/Pasted image 20240108152032.png",
     "Pasted image 20240108151245.png",
     "images/Pasted image 20240108143504.png",
     "Pasted image 20240108151550.png",
-    "DataLink/Data Link Layer.md",
-    "Physical/Physical Layer.md",
     "Transport Layer",
     "images/Pasted image 20240108112239.png",
-    "DataLink/Wired.md",
     "DataLink/Wireless.md",
-    "DataLink/Domains.md",
     "images/Pasted image 20240105161305.png",
     "images/Pasted image 20240105155438.png",
-    "Physical/Wireless.md",
     "images/Pasted image 20240105113107.png",
-    "images/Pasted image 20240105135943.png",
     "README.md",
     "CN/DataLink/Wireless.md",
-    "DataLink/Hidden Node Problem.md",
     "CN/DataLink",
     "CN",
-    "Physical/Copper Cables.md",
     "images",
-    "Physical/Encoding.md",
     "Osi model.md",
-    "DNS.md",
-    "Physical/Fiber Optic.md",
     "Physical",
     "Network Layer",
     "DataLink",
