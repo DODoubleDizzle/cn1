@@ -1,0 +1,10 @@
+# Spanning Tree
+STP is a network protocol that ensures a loop-free topology for Ethernet networks. The basic function of STP is to prevent bridge loops and the broadcast radiation that results from them. STP was originally defined in IEEE 802.1D.
+1. **Root Bridge Election**: All switches in the network claim to be the root bridge initially. The switch with the lowest bridge ID (a combination of a priority number and the switch's MAC address) becomes the root bridge.
+2. **Path Selection**: Each switch determines the shortest path to the root bridge. The port on the switch that provides the shortest path to the root bridge becomes the root port.
+3. **Designated and Non-Designated Ports**: For every network segment, there is a designated port (the port opposite to the root port). All other ports are non-designated and are put into a blocking state, effectively disabling them to prevent loops.
+4. **Listening State**: The default time for the listening state is 15 seconds. During this period, the switch processes BPDUs (Bridge Protocol Data Units) and determines the network topology without forwarding frames or learning MAC addresses.
+5. **Learning State**: The learning state also typically lasts for 15 seconds. In this state, the switch learns MAC addresses but does not forward user frames. The duration is intended to populate the MAC address table before starting to forward frames.
+6. **Forwarding State**: Once a port enters the forwarding state, it remains in this state as long as the network topology stays unchanged and no topology changes are detected that would require the port to change state.
+7. **Blocking State**: The duration of the blocking state can vary. A port enters the blocking state when STP determines that it could cause a loop if it were active. The port will remain in the blocking state until STP determines that it is safe to move the port to the listening state, potentially leading to a transition to the forwarding state.
+8. **Convergence**: Once all the ports on all the switches have been appropriately configured, the network is considered to have converged.

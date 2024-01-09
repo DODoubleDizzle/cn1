@@ -1,46 +1,46 @@
-- [[#IPv4|IPv4]]
-	- [[#Header|Header]]
-	- [[#Ranges|Ranges]]
-- [[#IPv6|IPv6]]
-	- [[#Header|Header]]
-	- [[#Extension headers|Extension headers]]
+- [[IPv4|IPv4]]
+	- [[IPv4#Header|Header]]
+	- [[IPv4#Ranges|Ranges]]
+- [[IPv6|IPv6]]
+	- [[IPv6#Header|Header]]
+	- [[IPv6#Extension headers|Extension headers]]
 - [[#RFC1918|RFC1918]]
-- [[#Subnetting|Subnetting]]
-	- [[#Classful|Classful]]
-	- [[#Classless / CIDR|Classless / CIDR]]
-- [[#NAT|NAT]]
-	- [[#NAT Process|NAT Process]]
-- [[#PAT|PAT]]
-- [[#Static Routing|Static Routing]]
-	- [[#How it Works:|How it Works:]]
-	- [[#Use Cases:|Use Cases:]]
-	- [[#Advantages of Static Routing:|Advantages of Static Routing:]]
-	- [[#Disadvantages of Static Routing:|Disadvantages of Static Routing:]]
-- [[#Dynamic Routing|Dynamic Routing]]
-	- [[#How it works:|How it works:]]
-	- [[#Advantages of Dynamic Routing:|Advantages of Dynamic Routing:]]
-	- [[#Disadvantages of Dynamic Routing:|Disadvantages of Dynamic Routing:]]
-- [[#Dijkstra|Dijkstra]]
-- [[#MTU|MTU]]
-	- [[#MTU Discovery|MTU Discovery]]
-		- [[#IPv4|IPv4]]
-		- [[#IPv6|IPv6]]
-- [[#Fragmentation|Fragmentation]]
-	- [[#Fragmentation in IPv4:|Fragmentation in IPv4:]]
-	- [[#Fragmentation in IPv6:|Fragmentation in IPv6:]]
-- [[#ICMP|ICMP]]
-	- [[#Key Functions of ICMP:|Key Functions of ICMP:]]
-	- [[#ICMP Message Types:|ICMP Message Types:]]
-	- [[#Characteristics:|Characteristics:]]
-- [[#ICMPv6|ICMPv6]]
-	- [[#Key Functions of ICMPv6:|Key Functions of ICMPv6:]]
-	- [[#ICMPv6 Message Types:|ICMPv6 Message Types:]]
-	- [[#Characteristics:|Characteristics:]]
-- [[#SLAAC|SLAAC]]
-- [[#managed flag|managed flag]]
-- [[#other flag|other flag]]
-- [[#solicited node|solicited node]]
-- [[#routing longest match|routing longest match]]
+- [[Subnetting|Subnetting]]
+	- [[Subnetting#Classful|Classful]]
+	- [[Subnetting#Classless / CIDR|Classless / CIDR]]
+- [[NAT|NAT]]
+	- [[NAT#NAT Process|NAT Process]]
+- [[PAT|PAT]]
+- [[Static Routing|Static Routing]]
+	- [[Static Routing#How it Works:|How it Works:]]
+	- [[Static Routing#Use Cases:|Use Cases:]]
+	- [[Static Routing#Advantages of Static Routing:|Advantages of Static Routing:]]
+	- [[Static Routing#Disadvantages of Static Routing:|Disadvantages of Static Routing:]]
+- [[Dynamic Routing|Dynamic Routing]]
+	- [[Dynamic Routing#How it works:|How it works:]]
+	- [[Dynamic Routing#Advantages of Dynamic Routing:|Advantages of Dynamic Routing:]]
+	- [[Dynamic Routing#Disadvantages of Dynamic Routing:|Disadvantages of Dynamic Routing:]]
+- [[Dijkstra|Dijkstra]]
+- [[MTU|MTU]]
+	- [[MTU#MTU Discovery|MTU Discovery]]
+		- [[MTU#IPv4|IPv4]]
+		- [[MTU#IPv6|IPv6]]
+- [[Fragmentation|Fragmentation]]
+	- [[Fragmentation#Fragmentation in IPv4:|Fragmentation in IPv4:]]
+	- [[Fragmentation#Fragmentation in IPv6:|Fragmentation in IPv6:]]
+- [[ICMP|ICMP]]
+	- [[ICMP#Key Functions of ICMP:|Key Functions of ICMP:]]
+	- [[ICMP#ICMP Message Types:|ICMP Message Types:]]
+	- [[ICMP#Characteristics:|Characteristics:]]
+- [[ICMPv6|ICMPv6]]
+	- [[ICMPv6#Key Functions of ICMPv6:|Key Functions of ICMPv6:]]
+	- [[ICMPv6#ICMPv6 Message Types:|ICMPv6 Message Types:]]
+	- [[ICMPv6#Characteristics:|Characteristics:]]
+- [[SLAAC|SLAAC]]
+	- [[SLAAC#managed flag|managed flag]]
+	- [[SLAAC#other flag|other flag]]
+- [[solicited node|solicited node]]
+- [[routing longest match|routing longest match]]
 - [[#clear ip nat translation|clear ip nat translation]]
 - [[#link state routing|link state routing]]
 
@@ -156,7 +156,7 @@ Static routing has two key components:
 
 # Dynamic Routing
 ## How it works:
-**Routing Protocols**: Routers use dynamic routing protocols like [[#Dijkstra]], RIP (Routing Information Protocol), OSPF (Open Shortest Path First), EIGRP (Enhanced Interior Gateway Routing Protocol), or BGP (Border Gateway Protocol) to exchange routing information.
+**Routing Protocols**: Routers use dynamic routing protocols like [[Dijkstra]], RIP (Routing Information Protocol), OSPF (Open Shortest Path First), EIGRP (Enhanced Interior Gateway Routing Protocol), or BGP (Border Gateway Protocol) to exchange routing information.
 **Routing Information Exchange**: Routers send out messages to neighbouring routers, informing them of their routing tables or changes in the network topology.
 **Routing Table Updates**: Each router uses this information to update its routing table, choosing the best paths based on the protocol's algorithm (e.g., shortest path, least cost, fastest speed).
 **Adaptation to Changes**: If there's a change in the network, such as a link failure, routers automatically recalculate routes and update their tables accordingly.
@@ -189,7 +189,7 @@ MTU discovery is the process of determining the maximum MTU size that can be use
 **Process**:
 - If a packet is larger than the MTU of the next hop, a router can fragment the packet into smaller units.
 - Each fragment is then sent as a separate packet. These packets have headers that allow the destination host to reassemble them back into the original packet.
-**Identification**: Fragmented packets are identified by specific fields in the IPv4 header, including the [[#IPv4#Header|Fragment Offset]], [[#IPv4#Header|More Fragments flag]], and an [[#IPv4#Header|Identification field]] that helps in reassembling the packets correctly.
+**Identification**: Fragmented packets are identified by specific fields in the IPv4 header, including the [[IPv4#Header|Fragment Offset]], [[IPv4#Header|More Fragments flag]], and an [[IPv4#Header|Identification field]] that helps in reassembling the packets correctly.
 
 ![[Pasted image 20240105161305.png]]
 ## Fragmentation in IPv6:
@@ -237,7 +237,7 @@ ICMP, or Internet Control Message Protocol, is an integral part of the Internet 
 
 # SLAAC
 ## Description
-Stateless Address Autoconfiguration (SLAAC) is the method for a host to generate their own IPv6 address using a prefix gained from a router advertisement (as a response to a new device being detected in the network) and [[#EUI64|EUI64]] and to check whether it is already in use using [[#Duplicate Address Detection (DAD) |Duplicate Address Detection]]. 
+Stateless Address Autoconfiguration (SLAAC) is the method for a host to generate their own IPv6 address using a prefix gained from a router advertisement (as a response to a new device being detected in the network) and [[SLAAC#EUI64|EUI64]] and to check whether it is already in use using [[#Duplicate Address Detection (DAD) |Duplicate Address Detection]]. 
 
 ## Duplicate Address Detection (DAD)
 Before finalizing its address, the device performs DAD by sending a Neighbor Solicitation message to check if the address is already in use on the local network. If there’s no response, the address is assumed to be unique, and the device configures it on its interface.
