@@ -8,6 +8,14 @@
         "type": "tabs",
         "children": [
           {
+            "id": "a1a094da6ed935e3",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
             "id": "d6aeebdbbcd4977b",
             "type": "leaf",
             "state": {
@@ -69,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "89bd1d60eae327ba",
@@ -87,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Transport Layer/Transport Layer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Transport Layer/Transport Layer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Transport Layer/Transport Layer.md"
-              }
+              "state": {}
             }
           },
           {
@@ -197,10 +200,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d6aeebdbbcd4977b",
+  "active": "a1a094da6ed935e3",
   "lastOpenFiles": [
-    "DNS.md",
+    "Transport Layer/DNS.md",
     "Transport Layer/Transport Layer.md",
+    "Transport Layer/UDP and TCP Characteristics.md",
+    "Transport Layer/Network Management.md",
+    "Transport Layer/DHCP.md",
+    "Transport Layer/TCP.md",
+    "Transport Layer/Port.md",
+    "DNS.md",
     "Osi model.md",
     "Network Layer/Network Layer.md",
     "Network Layer/IPv4.md",
@@ -219,12 +228,6 @@
     "DataLink/ARP.md",
     "DataLink/Ethernet Addressing.md",
     "Header.md",
-    "Network Layer/Routing Longest Match.md",
-    "Network Layer/SLAAC.md",
-    "Network Layer/ICMPv6.md",
-    "Network Layer/ICMP.md",
-    "Network Layer/Fragmentation.md",
-    "Network Layer/MTU.md",
     "images/Pasted image 20240108154852.png",
     "images/Pasted image 20240108154803.png",
     "images/Pasted image 20240108152032.png",
