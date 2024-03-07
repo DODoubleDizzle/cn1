@@ -6,7 +6,7 @@
 	- [[TCP#TCP#3 way handshake|3 way handshake]]
 		- [[TCP#3 way handshake#SYN|SYN]]
 		- [[TCP#3 way handshake#SYN/ACK|SYN/ACK]]
-		- [[TCP#3 way handshake#ACK|ACK]]
+		- [[TCP#ACK|ACK]]
 	- [[TCP#TCP#Slow start|Slow start]]
 	- [[TCP#TCP#congestion avoidance|congestion avoidance]]
 	- [[TCP#TCP#duplicate ack|duplicate ack]]
@@ -87,7 +87,7 @@ Congestion avoidance works by adjusting the size of the congestion window (the a
 ## duplicate ack
 A duplicate ACK is sent by the receiver when it receives a packet out of order, indicating that it expects a different sequence number. This can happen if a packet is lost or arrives late. Receiving multiple duplicate ACKs is often a sign of packet loss and is used by the sender to trigger fast retransmission
 ## fast retransmit
-Instead of waiting for a retransmission timer to expire, the sender retransmits the packet after receiving a certain number of duplicate [[ACKs]] for the same data (commonly three).
+Instead of waiting for a retransmission timer to expire, the sender retransmits the packet after receiving a certain number of duplicate ACKs for the same data (commonly three).
 ## fast recovery
 Fast recovery is a mechanism to recover from packet loss without closing the congestion window completely. After [[#fast retransmit]] sends the missing packet, fast recovery algorithm reduces the congestion window (but not as much as in a congestion event) and then begins to increase the window size again, but more cautiously.
 ## sliding window

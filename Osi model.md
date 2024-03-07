@@ -6,7 +6,7 @@ The OSI (Open Systems Interconnection) model is a conceptual framework used to u
 1. [[Physical Layer]]: Deals with the physical connection between devices, including cables and switches.
 2. [[Data Link Layer]]: Manages the node-to-node data transfer and error detection/correction from the physical layer.
 3. [[Network Layer]]: Handles data transfer between different networks and routing through the best path.
-4. **Transport Layer**: Ensures complete data transfer and manages error detection and recovery.
+4. [[Transport Layer]]: Ensures complete data transfer and manages error detection and recovery.
 5. **Session Layer**: Establishes, manages, and terminates connections between applications.
 6. **Presentation Layer**: Transforms data into a format that the application layer can accept.
 7. **Application Layer**: Provides network services directly to the user's applications.
